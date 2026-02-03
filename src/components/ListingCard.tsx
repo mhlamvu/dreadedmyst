@@ -19,7 +19,7 @@ export default function ListingCard({
 
     {listing.stats && (
       <ul className="text-sm text-gray-700 space-y-1">
-        {Object.entries(listing.stats).map(([key, value]) => (
+        {Object.entries(listing.stats as Record<string, number>).map(([key, value]) => (
           <li key={key}>
             {key}: <span className="font-medium">{value}</span>
           </li>
