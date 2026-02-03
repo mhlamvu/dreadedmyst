@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: system-ui, sans-serif;
+  background: #f6f6f6;
+}
+
+form, .card {
+  background: white;
+  padding: 16px;
+  margin-bottom: 16px;
+  border-radius: 6px;
+}
+
+input, select, button {
+  display: block;
+  margin: 8px 0;
+  padding: 6px;
+}
+
+button {
+  cursor: pointer;
+}
