@@ -45,7 +45,7 @@ export default function HomePage() {
             listing={l}
             onDelete={deleteListing}
           />
-          <p key={l.sellerName} className="text-sm text-gray-500">
+          <p key={Date.now()} className="text-sm text-gray-500">
             Seller: <span className="font-medium text-gray-700">/w {l.sellerName}</span>
           </p>
         </>
